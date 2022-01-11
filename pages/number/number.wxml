@@ -1,0 +1,8 @@
+<!--pages/number/number.wxml-->
+<view class="container">   
+    <text class="TbNumber">媳妇儿，今天的幸运数字</text>
+    <input class="input" bindinput="numberInput" />
+    <button class="button" bindtap="getLuckyNumber">马上中奖</button>
+    <text class="winningNumber">{{winningNumber}}</text>
+</view>
+
